@@ -48,14 +48,31 @@ Lower is better ↓
 - **Libraries:** TensorFlow, Keras, statsmodels, pandas, numpy, matplotlib, scikit-learn
 - **Evaluation Metric:** MAPE (Mean Absolute Percentage Error)
 - **Environment:** Google Colab / Jupyter Notebook
-
+## Repository Structure
+stock-forecast-comparison/
+├── Project_AOT.ipynb          ← CNN model (AOT)
+├── Project_Microsoft.ipynb    ← LSTM model (MSFT)
+├── Project_Tesla.ipynb        ← LSTM model (TSLA)
+├── Project_VIXipynb.ipynb     ← LSTM model (VIX)
+├── Airports of Thailand Stock Price History.csv
+├── CBOE Volatility Index Historical Data.csv
+├── Microsoft Stock Price History.csv
+├── Tesla Stock Price History.csv
+└── README.md
 ## How to Run
 1. Clone this repository
-2. Open `focaststock.ipynb` in Google Colab or Jupyter Notebook
-3. Upload CSV files to the same directory
+2. Open any `.ipynb` file in Google Colab or Jupyter Notebook
+3. Upload the corresponding CSV file
 4. Run all cells
+
+| Notebook | Stock | Best Model |
+|----------|-------|-----------|
+| Project_AOT.ipynb | AOT | CNN |
+| Project_Microsoft.ipynb | MSFT | LSTM |
+| Project_Tesla.ipynb | TSLA | LSTM |
+| Project_VIXipynb.ipynb | VIX | LSTM |
 
 ## Author
 **Sirirat Ittisuriyakun**  
 B.Sc. Statistics — Kasetsart University  
-sirirat.it@ku.th
+📧 sirirat.it@ku.th
